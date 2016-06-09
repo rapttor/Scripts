@@ -11,4 +11,8 @@ Various helpful code
 ** COI mvc framework
     Easy, lightweight framework with facebook sdk and QRCode plugins
 
+** Email protector
+	Html/css/javascript way to protect email on your site from spammers
+
+
 
