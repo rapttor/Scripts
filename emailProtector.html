@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Email protector</title>
+<style>
+	a.reverse { 
+  	unicode-bidi: bidi-override;
+  	direction: rtl;
+	}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+
+<body>
+
+	<h1>http://codepen.io/rapttor/pen/YWwqxL</h1>
+
+	<a href="maxilxto:coxntxact@domainx.com" onmouseover="this.href=this.href.replace(/x/g,'');">link</a>
+
+	<a href="maxilxto:coxntxact@domainx.com" class="mailprotector">link</a>
+
+	<a href="maxilxto:coxntxact@dxomxainx.com" class="mailprotector reverse">moc.niamod@tcatnoc</a>
+
+<script>
+	$(document).ready(function(){
+		$(".mailprotector").mouseover(function(){
+  			this.href=this.href.replace(/x/g,'');
+		});
+	});
+</script>
+
+</body>
+</head>
